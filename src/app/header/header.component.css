@@ -1,0 +1,21 @@
+.header {
+    background-image: url("https://media.istockphoto.com/photos/minimal-work-space-creative-flat-lay-photo-of-workspace-desk-top-view-picture-id1220573371?b=1&k=20&m=1220573371&s=170667a&w=0&h=dyT6F0wNP1NdDdvvTd95RVrR8qHwbEU8bqLxpDpSejw=");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header__content h1 {
+    font-size: 4rem;
+}
+.header__content h2 {
+    font-size: 2rem;
+    margin: 3% 0 10% 0  ;
+}
+.header__content button {
+    border: 2px solid black;
+    color: white;
+}
+.header__content button:hover {
+    background-color: black;
+    border: 2px solid transparent;
+    outline: none;
+}
