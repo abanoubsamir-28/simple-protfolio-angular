@@ -1,0 +1,28 @@
+footer {
+    background-color: black;
+    height: 50vh;
+}
+.footer__text__icons i {
+    font-size: 1.5rem;
+    color: white;
+}
+.footer__text p {
+    margin: 0 5%;
+}
+.footer__text__icons__email {
+    margin-bottom: 5%;
+}
+.footer__button button {
+    border: 2px solid white;
+
+}
+.footer__social i {
+    margin: 0 2%;
+    font-size: 2rem;
+    color: white;
+}
+
+#footerp {
+    width:82%;
+    text-align: right;
+}
