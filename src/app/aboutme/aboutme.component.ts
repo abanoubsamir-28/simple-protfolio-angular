@@ -5,11 +5,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './aboutme.component.html',
   styleUrls: ['./aboutme.component.css']
 })
-export class AboutmeComponent implements OnInit {
 
+
+export class AboutmeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
 
+  }
+  download() {
+    window.open("../../assets/template.pdf");
+  }
 }
